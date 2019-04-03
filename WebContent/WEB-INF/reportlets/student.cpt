@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WorkBook xmlVersion="20151125" releaseVersion="8.0.0">
+<ReportWebAttr>
+<ServerPrinter/>
+<WebWriteContent>
+<ToolBars>
+<ToolBarManager>
+<Location>
+<Embed position="1"/>
+</Location>
+<ToolBar>
+<Widget class="com.fr.report.web.button.ExcelO">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[下载模板]]></Text>
+<IconName>
+<![CDATA[sort]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.ImportExcelData">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[导入数据]]></Text>
+<IconName>
+<![CDATA[excel]]></IconName>
+</Widget>
+<Widget class="com.fr.report.web.button.write.Submit">
+<WidgetAttr>
+<PrivilegeControl/>
+</WidgetAttr>
+<Text>
+<![CDATA[提交]]></Text>
+<IconName>
+<![CDATA[submit]]></IconName>
+<Verify failVerifySubmit="false"/>
+</Widget>
+</ToolBar>
+</ToolBarManager>
+</ToolBars>
+<SelectedColor/>
+<WebWrite SheetPosition="3"/>
+<RptLocation isShowAtLeft="true"/>
+<UnloadCheck/>
+<ShowWidgets/>
+</WebWriteContent>
+</ReportWebAttr>
+<Report class="com.fr.report.worksheet.WorkSheet" name="sheet1">
+<ReportPageAttr>
+<HR/>
+<FR/>
+<HC/>
+<FC/>
+</ReportPageAttr>
+<ColumnPrivilegeControl/>
+<RowPrivilegeControl/>
+<RowHeight defaultValue="723900">
+<![CDATA[723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900,723900]]></RowHeight>
+<ColumnWidth defaultValue="2743200">
+<![CDATA[2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200,2743200]]></ColumnWidth>
+<CellElementList>
+<C c="0" r="0">
+<O>
+<![CDATA[学号]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="1" r="0">
+<O>
+<![CDATA[姓名]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="2" r="0">
+<O>
+<![CDATA[班级]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="3" r="0">
+<O>
+<![CDATA[成绩]]></O>
+<PrivilegeControl/>
+<Expand/>
+</C>
+<C c="0" r="1">
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="1" r="1">
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="2" r="1">
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+<C c="3" r="1">
+<PrivilegeControl/>
+<Expand dir="0"/>
+</C>
+</CellElementList>
+<ReportAttrSet>
+<ReportSettings headerHeight="0" footerHeight="0">
+<PaperSetting/>
+</ReportSettings>
+</ReportAttrSet>
+<ReportWriteAttr>
+<Submiter class="com.fr.report.write.BuiltInSQLSubmiter" name="内置SQL1">
+<Attributes dsName="Mysql-jdbc"/>
+<DMLConfig class="com.fr.write.config.IntelliDMLConfig">
+<Table schema="" name="t_student"/>
+<ColumnConfig name="name" isKey="false" skipUnmodified="false">
+<ColumnRowGroup>
+<ColumnRow column="1" row="1"/>
+</ColumnRowGroup>
+</ColumnConfig>
+<ColumnConfig name="myclass" isKey="false" skipUnmodified="false">
+<ColumnRowGroup>
+<ColumnRow column="2" row="1"/>
+</ColumnRowGroup>
+</ColumnConfig>
+<ColumnConfig name="score" isKey="false" skipUnmodified="false">
+<ColumnRowGroup>
+<ColumnRow column="3" row="1"/>
+</ColumnRowGroup>
+</ColumnConfig>
+</DMLConfig>
+</Submiter>
+</ReportWriteAttr>
+<PrivilegeControl/>
+</Report>
+<ReportParameterAttr>
+<Attributes showWindow="true" delayPlaying="true" windowPosition="1" align="0"/>
+<PWTitle>
+<![CDATA[参数]]></PWTitle>
+</ReportParameterAttr>
+<StyleList/>
+<DesignerVersion DesignerVersion="IAA"/>
+<PreviewType PreviewType="1"/>
+</WorkBook>
